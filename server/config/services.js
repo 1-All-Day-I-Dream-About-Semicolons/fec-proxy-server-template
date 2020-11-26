@@ -42,14 +42,14 @@
 
 module.exports = {
   service1: {
-    api: '/products/:id',
+    api: '/*/:id/photos',
     url: 'http://localhost:3001',
-    bundle: '/products/:id/bundle.js'
+    bundle: '/photos/:id/bundle.js'
   },
   service2: {
-    api: '/',
+    api: '/*/:id/checkout',
     url: 'http://localhost:3005',
-    bundle: 'bundle.js',
+    bundle: '/checkout/:id/bundle.js',
   },
   service3: {
     api: '/ctl',
@@ -57,8 +57,8 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/reviews/:id',
+    api: '/*/:id/reviews',
     url: 'http://localhost:8000',
-    bundle: 'bundle.js',
-  },
+    bundle: '/reviews/:id/bundle.js'
+  }
 };
