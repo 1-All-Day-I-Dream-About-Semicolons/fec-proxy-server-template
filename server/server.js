@@ -8,7 +8,7 @@ const app = express();
 
 app.use(morgan('dev'));
 app.use(express.static(PUBLIC_DIR));
-app.use('/:id', express.static(PUBLIC_DIR));
+// app.use('/:id', express.static(PUBLIC_DIR));
 
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
 app.use('/bundles', router.bundles);
