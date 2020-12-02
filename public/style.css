@@ -1,0 +1,57 @@
+#header {
+    width: 100%;
+}
+
+#oneTwo {
+    display: flex;
+    width: 1366px;
+    background-color: #ebeef0;
+}
+
+#containerOne {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    /* position: absolute;
+    left: 0%;
+    width: 65%; */
+}
+
+#service1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#containerTwo {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 950px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10;
+    position: absolute;
+    right: 0%;
+}
+
+#service2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /* float: right; */
+    /* width: 450px;
+    height: auto; */
+}
+
+#service3 {
+    display: flex;
+    float: left;
+    width: 65%
+}
+
+#service4 {
+    display: flex;
+    float: left;
+    width: 65%
+}
